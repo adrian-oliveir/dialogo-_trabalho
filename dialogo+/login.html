@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <span id="theme-icon" class="theme-toggle">&#9728;</span>
+
+    <div class="container">
+        <h2>Login</h2>
+        <form action="#" method="POST">
+            <div class="input-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+            </div>
+            <div class="input-group">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" required placeholder="Digite sua senha">
+            </div>
+            <button type="submit">Entrar</button>
+        </form>
+
+        <p class="login-text">
+            Não tem uma conta? <a href="cadastro.html">Cadastre-se</a>
+        </p>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
